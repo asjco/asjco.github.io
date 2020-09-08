@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://salty-spire-97311.herokuapp.com/v1/';
-  const trelloApiRoot = 'https://salty-spire-97311.herokuapp.com/trello/';
+  const trelloApiRoot = 'https://salty-spire-97311.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
